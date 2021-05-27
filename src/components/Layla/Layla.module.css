@@ -1,0 +1,45 @@
+.container {
+    width: 250px;
+    height: 660;
+    padding: 5px;
+    border-radius: 10px;
+    color:rgb(0, 0, 0);
+    background-image: url("https://www.tripsavvy.com/thmb/HpDfqBAIPuf2M3lkcbzdAfx9i7Q=/1333x1000/smart/filters:no_upscale()/8548038333_127f67694e_o-58f50b443df78ca1599c18ed.jpg");
+    background-repeat: no-repeat;
+    background-size: 660px 660px;
+    transition: 0.5s;   
+}
+.container:hover {
+    background-image: url("https://www.colorhexa.com/fadadd.png");
+    background-size: 660px 660px;
+}
+.cc {
+    text-align: center;
+}
+.info {
+    margin: 10px 5px 15px 5px;
+    font-family: Arial, Helvetica,sans-serif;
+    padding: 2px;
+    border-bottom: 0.75px solid white;
+}
+.info h4 {
+    text-align: center;
+    text-shadow: 2px 2px rgb(158, 57, 136);
+    border-bottom: 0.75px solid white;
+    margin-bottom: 3px;
+}
+.info p, .part2 span {
+    font-size: 10pt;
+    color: black;
+}
+.info p {
+    padding: 3px;
+    text-shadow: 2px 2px white;
+
+}
+.info span {
+    font-weight: bold;
+    font-size: 11pt;
+    color: rgb(158, 57, 136);
+    text-shadow: 1px 1px black;
+}

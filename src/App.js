@@ -1,16 +1,27 @@
 import "./App.css";
 import Monica from "./components/Monica/Monica";
 import Alreem from "./components/Alreem/Alreem";
+
 import Rawan from "./components/Rawan/Rawan";
 import Hissah from "./components/Hissah/Hissah";
 import Samaher from "./components/Samaher/Samaher";
 import Rahaf from "./components/Rahaf/Rahaf";
+
+import Asrar from "./components/Asrar/Asrar";
+import Abeer from "./components/Abeer/Abeer";
+import Amal from "./components/Amal/Amal";
+import Layla from "./components/Layla/Layla";
+import Maha from "./components/Maha/Maha";
+import Nouf from "./components/Nouf/Nouf";
+import Rawan from "./components/Rawan/Rawan";
+
 
 function App() {
   return (
     <div className="flex">
       <Monica />
       <Alreem />
+
       <Rawan 
       name="Rawan"
       pic="https://image.freepik.com/free-vector/people-profile-icon_24877-40756.jpg"
@@ -39,6 +50,15 @@ function App() {
       language="HTML"
       unique="Interior Design"
       />
+
+      <Rawan />
+      <Abeer />
+      <Amal />
+      <Layla />
+      <Maha />
+      <Nouf />
+      <Asrar/>
+
     </div>
   );
 }

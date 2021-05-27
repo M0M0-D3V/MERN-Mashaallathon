@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './components/style.css';
 import ProfilePic from './components/ProfilePic'
@@ -31,3 +32,24 @@ const Rawan = (props) => {
     )
 }
 export default Rawan;
+
+import React, { useState } from "react";
+import Profile from "./MyComponents/Profile.jsx"
+import Info from "./MyComponents/Info.jsx"
+import style from "./Rawan.module.css"
+import Form from "./MyComponents/Form.jsx"
+
+const Rawan = () => {
+
+    return (
+    <div className={ style.card }>
+        <Profile />
+        <Info />
+        <Form />
+    
+    </div>
+    )
+}
+
+export default Rawan
+
