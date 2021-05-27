@@ -44,7 +44,7 @@ const Form = (props) => {
         ) : (
             <h4>please submit the form.</h4>
         )}          
-        <div className={style.form}>
+        <div className={style.nform}>
             <label>First Name: </label>
             <input type="text" onChange={handleFirstName} value={firstName} />
             {firstNameError ? <p style={{ color: "red" }}>{firstNameError}</p> : ""}

@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     }
-.container {
+.ncontainer {
     width: 250px;
     height: 480px;
     border: 1px dashed pink;
@@ -16,12 +16,12 @@
 h2 {
     color: darkslategray;
 }
-input {
+.ninput {
     padding: 5px;
     border-radius: 5px;
     background-color: darkslategray;
 }
-form {
+.nform {
 	padding: 20px;
 }
 

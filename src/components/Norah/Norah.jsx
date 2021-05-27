@@ -4,7 +4,7 @@ import Form from "./NorComponents/Form.jsx"
 import Profile from "./NorComponents/Profile.jsx"
 function Norah() {
     return (
-        <div className={style.container}>
+        <div className={style.ncontainer}>
             <Profile/>
             <AboutMe/>
             <Form/>
