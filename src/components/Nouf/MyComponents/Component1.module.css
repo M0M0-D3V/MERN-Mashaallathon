@@ -1,0 +1,28 @@
+.profile {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+  }
+  .clicked{
+    width: 75px;
+    height:50px;
+    display: block;
+    margin: 0 auto;
+    opacity: 1;
+  }
+  .notclicked{
+    width: 100px;
+    height:50px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+  }
+  .profilePic {
+    width: 75px;
+    border-radius: 50%;
+    box-shadow: 4px 4px goldenrod;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    /* height: 75px; */
+}

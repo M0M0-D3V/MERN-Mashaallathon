@@ -1,0 +1,59 @@
+.container {
+    width: 250px;
+    padding: 5px;
+    border-radius: 15px;
+    color:lightpink;
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190819/pngtree-pink-sakura-flower--cherry-petal-pattern-wallpaper-background-image_300417.jpg");
+} 
+.info{
+    font-family: Arial, Helvetica,sans-serif;
+    padding: 3px;
+    margin: 10px;
+    
+} 
+h1{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+
+.info p {
+    padding: 3px;
+    font-size: 12pt;
+    color: plum;
+
+}
+
+
+p:hover {
+    color:rgb(94, 64, 69);
+    font-size: 15px;
+    
+    
+}
+.info span {
+    font-weight: bold;
+    font-size: 13pt;
+    color:purple;
+    
+   
+}
+.btun {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 5px;
+    text-align: center; 
+    
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    background: linear-gradient(30deg, rgb(153, 51, 153), rgb(238, 212, 238));
+    color: #fff;
+    border: none;
+    
+  }
+input{
+    margin-top: 15px;
+    margin-left: 30px;    
+  }
