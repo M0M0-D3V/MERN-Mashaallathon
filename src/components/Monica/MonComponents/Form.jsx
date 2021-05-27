@@ -9,7 +9,7 @@ const Form = () => {
     }
     return (
         <div className={style.monForm}>
-            <h4>Type Something</h4>
+            <h4>Type Your Favorite Color</h4>
             <input type="text" onChange={wordsHandler}/>
             <div className={style.wordsOnScreen}>
                 {words}
@@ -18,4 +18,4 @@ const Form = () => {
     )
 }
 
-export default Form
+export default Form;
