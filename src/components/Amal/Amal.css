@@ -1,0 +1,76 @@
+.maincontainer{
+  background-color: transparent;
+  width: 300px;
+  perspective: 1000px;
+}
+
+.thecard{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.thecard:hover{
+  transform: rotateY(180deg);
+}
+
+ .thefront{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/abfb3a52-d745-42ad-a67b-9318ada0708a/dap2pt6-90d14584-94f7-4e8d-945c-79772d8f872b.png/v1/fill/w_1024,h_768,q_80,strp/cute_pastel_background_by_rainwhisperhd_dap2pt6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvYWJmYjNhNTItZDc0NS00MmFkLWE2N2ItOTMxOGFkYTA3MDhhXC9kYXAycHQ2LTkwZDE0NTg0LTk0ZjctNGU4ZC05NDVjLTc5NzcyZDhmODcyYi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.C-vM0PjDJd61jgY3r-_iddsySF0JLtZXst9mlQ88YBQ");
+}
+
+.theback{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/abfb3a52-d745-42ad-a67b-9318ada0708a/dap2pt6-90d14584-94f7-4e8d-945c-79772d8f872b.png/v1/fill/w_1024,h_768,q_80,strp/cute_pastel_background_by_rainwhisperhd_dap2pt6-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzY4IiwicGF0aCI6IlwvZlwvYWJmYjNhNTItZDc0NS00MmFkLWE2N2ItOTMxOGFkYTA3MDhhXC9kYXAycHQ2LTkwZDE0NTg0LTk0ZjctNGU4ZC05NDVjLTc5NzcyZDhmODcyYi5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.C-vM0PjDJd61jgY3r-_iddsySF0JLtZXst9mlQ88YBQ");
+}
+
+
+.img{
+  width: 110px;
+}
+
+.msg{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3{
+  margin-top: 40px;
+}
+.hover{
+  color: lightcoral;
+}
+h2{
+  color:lightcyan;
+}
+.btn{
+  background-color: green; /* Green */
+  border: none;
+  border-radius: 20px;
+  color: whitesmoke;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

@@ -1,0 +1,38 @@
+.profile {
+    width: 230px;
+    text-align: center;
+    display: block;
+    margin-top: 30px ;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 75px; */
+}
+
+.card {
+    width: 280px;
+    height: 480px;
+    border: 2px solid gray;
+    box-shadow: 1px 1px white;
+    border-radius: 10px;
+    background-image: url("./Background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 280px 480px;
+    text-align: center;
+
+
+}
+
+span {
+    font-weight: bold;
+    font-size: 11pt;
+    color: rgb(29, 96, 151);
+    }
+
+p{
+    font-size: 11pt;
+    color: rgb(53, 55, 56);
+    margin-bottom: 15px;
+
+    }
+
