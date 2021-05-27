@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.container {
+    width: 250px;
+    height: 480px;
+    border: 1px dashed pink;
+    color: darkslategray;
+    box-shadow: 1px 1px white;
+    background-image: url("https://www.pexels.com/photo/close-up-photo-of-pink-petaled-flowers-600114/");
+    background-repeat: no-repeat;
+    background-size: 480px 480px;
+}
+h2 {
+    color: darkslategray;
+}
+input {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: darkslategray;
+}
+form {
+	padding: 20px;
+}
+

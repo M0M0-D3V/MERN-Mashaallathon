@@ -8,7 +8,7 @@ import Layla from "./components/Layla/Layla";
 import Maha from "./components/Maha/Maha";
 import Nouf from "./components/Nouf/Nouf";
 import Rawan from "./components/Rawan/Rawan";
-
+import Norah from "./components/Norah/Norah";
 function App() {
   return (
     <div className="flex">
@@ -21,6 +21,7 @@ function App() {
       <Maha />
       <Nouf />
       <Asrar/>
+      <Norah/>
     </div>
   );
 }
