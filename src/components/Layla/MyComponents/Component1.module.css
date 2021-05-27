@@ -1,0 +1,38 @@
+  .clicked{
+    width: 230px;
+    height:180px;
+    display: block;
+    margin: 5px;
+    opacity: 1;
+  }
+  .namecenter{
+    text-align: center;
+  }
+  .notclicked{
+    width: 150px;
+    height:150px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+  }
+
+  .cc{
+    text-align: center;
+  }
+  .profilePic {
+    width: 85px;
+    border-radius: 20%;
+    box-shadow: 4px 4px rgb(158, 57, 136);
+    text-align: center;
+    display: block;
+    margin: auto;
+    height: 100px;
+}
+.btn {
+  display: block;
+  margin: 10px auto 0 auto;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 4px 4px rgb(158, 57, 136);
+  border: 0.75px solid rgb(158, 57, 136);
+  }
