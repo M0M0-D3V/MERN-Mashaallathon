@@ -1,3 +1,4 @@
+import React from "react";
 import style from "./Alreem.module.css"
 import Component1 from "./MyComponents/Component1"
 import Component2 from "./MyComponents/Component2"

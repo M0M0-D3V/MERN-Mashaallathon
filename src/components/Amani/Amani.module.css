@@ -1,0 +1,30 @@
+.container {
+    width: 250px;
+    padding: 5px;
+    border-radius: 15px;
+    color:rgb(21, 98, 134);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;   
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Blue-White-Background-Image.jpg");
+ 
+}  
+
+.profilePic {
+    width: 75px;
+    height: 75px;
+    border-radius: 30%;
+    box-shadow: 4px 4px whitesmoke;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    /* height: 75px; */
+}
+
+.info{
+    margin: 10px 5px 15px 5px;
+    font-family: Arial, Helvetica,sans-serif;
+    font-size: smaller;
+    text-align: left;
+    padding: 3px;
+    border-bottom: 0.75px solid white;
+}

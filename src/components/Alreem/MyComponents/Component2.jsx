@@ -1,3 +1,4 @@
+import React from "react";
 import style from './Component1.module.css'
 import { useState } from 'react'
 
